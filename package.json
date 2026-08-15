@@ -1,0 +1,22 @@
+{
+  "name": "mohammed-asad-portfolio",
+  "version": "1.0.0",
+  "description": "Cinematic AI/ML Developer Portfolio for Mohammed Asad Ali featuring interactive 4K Batman scroll animation.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "batman",
+    "canvas-animation",
+    "generative-ai",
+    "rag"
+  ],
+  "author": "Mohammed Asad Ali",
+  "license": "MIT"
+}
