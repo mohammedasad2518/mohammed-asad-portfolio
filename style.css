@@ -932,8 +932,8 @@ body {
 
 /* ACHIEVEMENTS SECTION */
 .stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  justify-content: space-between;
   gap: 48px;
 }
 
@@ -941,6 +941,8 @@ body {
   text-align: left;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--border-subtle);
+  max-width: 360px;
+  width: 100%;
 }
 
 .stat-icon {
@@ -981,9 +983,8 @@ body {
 
 /* CONTACT SECTION — Pushed Left & Right to Fully Expose Batman's Head in Center */
 .contact-grid {
-  display: grid;
-  grid-template-columns: 340px 380px;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
   gap: 80px;
   align-items: start;
 }
@@ -1300,6 +1301,7 @@ body {
   .hamburger-btn { display: flex; }
   
   .cert-grid, .focus-grid { grid-template-columns: 1fr; }
+  .stats-grid { flex-direction: column; }
   .github-cta-box { text-align: center; justify-content: center; }
   .footer-container { flex-direction: column; text-align: center; gap: 16px; }
 }
